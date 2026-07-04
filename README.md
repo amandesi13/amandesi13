@@ -15,9 +15,17 @@ I work closest to the intersection of **embedded software**, **Linux networking*
 
 ## Featured Projects
 
-### [PDF DE2EN OCR Lens](https://github.com/amandesi13/pdf-de2en-ocr-lens)
+### [Auslander Doc Assistant](https://github.com/amandesi13/auslander-doc-assistant)
 
-German-to-English PDF converter that extracts native PDF text and OCRs rendered pages to capture words embedded inside diagrams, screenshots, and scanned graphics. Built with Python, PyMuPDF, Tesseract OCR, translation-provider adapters, structured JSON output, HTML review reports, tests, and GitHub Actions CI.
+Privacy-first document assistant for international students and newcomers in Germany. Upload a bureaucracy document, letter, contract, PDF, or image and get a plain-English explanation, required documents, deadlines, action checklist, and polite German reply draft.
+
+### [OAI RAN Metrics xApp Lab](https://github.com/amandesi13/oai-ran-metrics-xapp-lab)
+
+OpenAirInterface-inspired RAN observability lab with simulated gNB/cell/UE KPIs, xApp-style metric collection, congestion/radio-degradation anomaly detection, and Prometheus/Grafana monitoring.
+
+### [Technical PDF Translator for Students](https://github.com/amandesi13/pdf-de2en-ocr-lens)
+
+German-to-English technical PDF translator for students that extracts native PDF text and OCRs rendered pages to capture words embedded inside diagrams, screenshots, and scanned graphics. Built with Python, PyMuPDF, Tesseract OCR, translation-provider adapters, structured JSON output, HTML review reports, tests, and GitHub Actions CI.
 
 ### [AI-Assisted Firewall Validation Engine](https://github.com/amandesi13/AI-Assisted-Firewall-Validation-Engine)
 
@@ -25,7 +33,7 @@ Firewall rule validation tool that simulates packet flow, detects shadowed and o
 
 ## Currently Building
 
-- OAI RAN metrics xApp lab for OpenAirInterface-style metrics collection and control-loop evaluation.
+- Auslander Doc Assistant as a privacy-first product for document anxiety, German bureaucracy, and international-student workflows.
 - Secure embedded C++ CI pipeline with sanitizers, static analysis, fuzzing, and GitHub Actions.
 - Better automation around Dresden working-student job matching and application tracking.
 
