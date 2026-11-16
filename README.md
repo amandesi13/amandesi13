@@ -20,7 +20,25 @@ At Nokia Networks, I worked on commercial 4G/5G RAN software with C/C++, Python,
 
 One of my strongest ownership experiences was managing **OPG-layer integration work during the Marvell acquisition integration into Nokia**. That work mapped directly to software management skills: coordinating technical dependencies, protecting quality gates, writing/owning unit tests, understanding integration risk, and delivering across repository boundaries.
 
+## Try It Live
+
+These run entirely in your browser: the real Python packages load on [Pyodide](https://pyodide.org) (WebAssembly), so there is no server, no sign-up and nothing is uploaded.
+
+| Demo | What you can do | Source |
+| --- | --- | --- |
+| [Firewall Validation Engine](https://amandesi13.github.io/AI-Assisted-Firewall-Validation-Engine/) | Paste a policy, find shadowed/duplicate/over-broad rules, push packets through first-match evaluation | [repo](https://github.com/amandesi13/AI-Assisted-Firewall-Validation-Engine) |
+| [Log Monitoring Lab](https://amandesi13.github.io/distributed-log-monitoring-alerting-system/) | Paste or simulate service logs, tune thresholds, see alerts on a per-service latency timeline | [repo](https://github.com/amandesi13/distributed-log-monitoring-alerting-system) |
+| [Reliability Control Plane](https://amandesi13.github.io/reliability-control-plane/) | Run incident scenarios through policy-as-code and correlation; explainable evidence trace | [repo](https://github.com/amandesi13/reliability-control-plane) |
+| [JARVIS Life Planner](https://amandesi13.github.io/jarvis-life-planner/) | Natural-language task capture, auto-planned day, focus timer | [repo](https://github.com/amandesi13/jarvis-life-planner) |
+
 ## Featured Practical Projects
+
+### [LiftPulse](https://github.com/amandesi13/liftpulse)
+
+Lift (elevator) health monitoring from riders' phones: scan a QR code, ride, and the phone's accelerometer becomes a sensor. Signal processing extracts jerk, vibration and levelling; robust per-lift baselines turn them into a health score, trends and maintenance alerts. FastAPI, NumPy/SciPy, PostgreSQL, Docker/Kubernetes, 80+ tests.
+
+**Why it matters:** Predictive maintenance usually needs installed sensors; this needs only the people already riding.
+
 
 ### [Auslander Doc Assistant](https://github.com/amandesi13/auslander-doc-assistant)
 
